@@ -1,0 +1,20 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "rules": {
+    "arrow-parens": false,
+    "interface-name": [true, "never-prefix"],
+    "jsx-no-multiline-js": false,
+    "member-access": false,
+    "object-literal-key-quotes": [true, "as-needed"],
+    "object-literal-sort-keys": false,
+    "quotemark": false,
+    "semicolon": false,
+    "trailing-comma": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "src/@types/react-vis/react-vis.d.ts",
+      "node_modules/**/*.ts"
+    ]
+  }
+}
